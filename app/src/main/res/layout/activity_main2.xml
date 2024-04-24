@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/bottom_curved"
+        >
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_gravity="start"
+            android:src="@drawable/img"
+            android:padding="@dimen/_10sdp"
+
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="HOME WORK 214_1"
+            android:textColor="#8BC34A"
+            android:textStyle="bold"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:layout_margin="20dp"
+        android:background="@drawable/dkgy"
+        android:text="The Input A Number"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textColor="#B11313"
+        />
+
+
+    <EditText
+        android:id="@+id/EdNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+         android:background="@drawable/khair"
+        android:padding="20dp"
+        android:hint="Input A Number"
+        android:inputType="number"
+        android:textColor="#000"
+        />
+
+
+    <Button
+        android:id="@+id/buttoncal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/dkgy"
+        android:text="Caleculet"
+        android:textSize="20dp"
+
+        />
+
+
+    <TextView
+        android:id="@+id/TextView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+       android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:background="@drawable/dkgy"
+
+        />
+
+
+
+
+
+
+
+
+</LinearLayout>
